@@ -102,3 +102,18 @@ nav .right a {
   margin-top: 20px;
   margin-left: 8%;
 }
+
+/* Grey space */
+.grey {
+  background-color: #ddd;
+  text-align: center;
+}
+
+.grey h3 {
+  padding: 20px 0 5px;
+}
+
+.grey .sotto {
+  color: #888;
+  padding-bottom: 20px;
+}
