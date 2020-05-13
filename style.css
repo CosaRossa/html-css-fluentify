@@ -12,7 +12,11 @@
 nav {
   background-color: #004080;
   height: 68px;
-  position: relative;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: 999;
 }
 
 nav ul, nav img {
@@ -20,7 +24,7 @@ nav ul, nav img {
 }
 
 nav img {
-  padding: 15px 30px 15px 8%;
+  padding: 15px 2% 15px 8%;
   vertical-align: middle;
 }
 
@@ -71,5 +75,30 @@ nav .right a {
 
 /* Presentation */
 .presentation {
+  margin-top: 68px;
   background-color: #004080;
+  background-image: url('img/jumbo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 50vh;
+}
+
+.presentation h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  padding-top: 8%;
+  margin-left: 8%;
+}
+
+.presentation button {
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 5px;
+  border: 1px solid #23c123;
+  color: white;
+  background-color: #23c123;
+  margin-top: 20px;
+  margin-left: 8%;
 }
