@@ -117,3 +117,52 @@ nav .right a {
   color: #888;
   padding-bottom: 20px;
 }
+
+
+
+/* Main part */
+
+
+/* First sec. */
+
+/* Columns */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.clearfix article {
+  float: left;
+  width: 26%;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.clearfix .art2 {
+  margin: 40px 11%;
+}
+
+.clearfix article img {
+  height: 100px;
+}
+
+.clearfix h3 {
+  color: #12c123;
+}
+
+.clearfix .hr {
+  background-color: #aaa;
+  width: 20%;
+  height: 1px;
+  margin: 10px auto;
+}
+
+.clearfix p {
+  color: #888;
+}
+
+.clearfix {
+  margin: 0 10%;
+  border-bottom: 1px solid #888;
+}
