@@ -2,4 +2,74 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+/* Header */
+
+/* Navbar */
+nav {
+  background-color: #004080;
+  height: 68px;
+  position: relative;
+}
+
+nav ul, nav img {
+  display: inline-block;
+}
+
+nav img {
+  padding: 15px 30px 15px 8%;
+  vertical-align: middle;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  line-height: 68px;
+  font-size: 13px;
+}
+
+nav .right {
+  float: right;
+  display: inline-block;
+  margin-right: 8%;
+}
+
+nav .right a {
+  text-decoration: none;
+  padding: 10px 0;
+  color: white;
+  line-height: 68px;
+  font-size: 13px;
+}
+
+#login {
+  padding: 2px 20px;
+  color: white;
+  font-size: 13px;
+  background-color: #004080;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  margin: 0 20px;
+}
+
+#piano {
+  padding: 2px 15px;
+  font-size: 13px;
+  border-radius: 5px;
+  border: 1px solid #23c123;
+  color: white;
+  background-color: #23c123;
+}
+
+/* Presentation */
+.presentation {
+  background-color: #004080;
 }
