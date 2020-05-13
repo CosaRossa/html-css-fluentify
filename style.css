@@ -122,14 +122,16 @@ nav .right a {
 
 /* Main part */
 
-
 /* First sec. */
-
-/* Columns */
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
+}
+
+.clearfix {
+  margin: 0 10%;
+  border-bottom: 1px solid #888;
 }
 
 .clearfix article {
@@ -162,7 +164,29 @@ nav .right a {
   color: #888;
 }
 
-.clearfix {
-  margin: 0 10%;
-  border-bottom: 1px solid #888;
+/* Second sec */
+.clearsec2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.clearsec2 {
+  margin: 40px 10%;
+}
+
+.clearsec2 div {
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.clearsec2 p {
+  margin: 10px 0;
+  color: #888;
+}
+
+.clearsec2 a {
+  color: #0080c0;
 }
